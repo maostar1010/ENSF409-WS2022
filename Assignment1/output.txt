@@ -1,0 +1,31 @@
+2022 (Year)
+--12 (Month)
+----Nuuk (City), Greenland (Country) (Place)
+----Longyearbyen (City), Svalbard (Country) (Place)
+2023 (Year)
+--1 (Month)
+----Helsinki (City), Finland (Country) (Place)
+----Casablanca (City), Morocco (Country) (Place)
+----Istanbul (City), Turkey (Country) (Place)
+----Yerevan (City), Armenia (Country) (Place)
+----Tblisi (City), Georgia (Country) (Place)
+----Coimbatore (City), India (Country) (Place)
+----Ooty (City), India (Country) (Place)
+----Hyderabad (City), India (Country) (Place)
+----Seoul (City), South Korea (Country) (Place)
+--2 (Month)
+----Jeju (City), South Korea (Country) (Place)
+----Seoul (City), South Korea (Country) (Place)
+----Tokyo (City), Japan (Country) (Place)
+----Osaka (City), Japan (Country) (Place)
+
+Nuuk (City)
+Value (Key)
+2023-07-10 (Arrival), 2023-08-11 (Departure), Vaduz (City), Liechtenstein (Country)
+7
+2023
+
+--2025-10-20--
+--2025-10-26--
+--Istanbul--
+--Turkey--
