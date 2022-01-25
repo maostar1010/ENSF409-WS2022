@@ -24,9 +24,9 @@ public class Itinerary {
     public String formatByArrival() {
     }
 
-    // The first array holds years (2022-2023).
+    // The first array holds years (2021-2023).
     // The second array holds months.
-    // The third array holds formatLocation() fitting the criteria
+    // The third array holds formatted locations occurring in the year/month
     String[][][] byDate() {
     }
 

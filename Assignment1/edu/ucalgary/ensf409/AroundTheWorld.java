@@ -74,6 +74,14 @@ public class AroundTheWorld {
 	System.out.println("--" + array[4].getDeparture() + "--");
 	System.out.println("--" + array[4].getCity() + "--");
 	System.out.println("--" + array[4].getCountry() + "--");
+
+        var dateArray = myItinerary.byDate();
+        for (int i=0; i<dateArray.length; i++) { // i is years - 2021-2023
+                for (int j=0; j<dateArray[i].length; j++) { // j is months, 0-11
+                        System.out.printf("dateArray[%d][%d][%d] = %s\n", i,j,0,
+                        dateArray[i][j][0]);
+                }
+        }
     }
 
     // Each line is: arrival date, departure date, city, country/territory
