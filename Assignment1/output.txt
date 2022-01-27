@@ -1,4 +1,5 @@
-2022 (Year)
+** Demonstrate formatByArrival
+2021 (Year)
 --12 (Month)
 ----Nuuk (City), Greenland (Country) (Place)
 ----Longyearbyen (City), Svalbard (Country) (Place)
@@ -19,16 +20,22 @@
 ----Tokyo (City), Japan (Country) (Place)
 ----Osaka (City), Japan (Country) (Place)
 
+** Demonstrate fmtString
 Nuuk (City)
 Value (Key)
+** Demonstrate formatTrip
 2023-07-10 (Arrival), 2023-08-11 (Departure), Vaduz (City), Liechtenstein (Country)
+** Demonstrate getMonth
 7
+** Demonstrate getYear
 2023
+** Demonstrate getters and setters
 
---2025-10-20--
---2025-10-26--
+--2021-10-20--
+--2021-10-26--
 --Istanbul--
 --Turkey--
+** Demonstrate content of byDate
 dateArray[0][0][0] = null
 dateArray[0][1][0] = null
 dateArray[0][2][0] = null

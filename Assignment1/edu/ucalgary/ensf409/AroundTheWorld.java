@@ -40,10 +40,10 @@ public class AroundTheWorld {
         var data = exampleData();
 
         // Create a new Itinerary object. Order of listings is the same
-        // as input data
+        // as input data. Input data is always in order.
         var myItinerary = new Itinerary(data);
 
-        // Demonstrate formatByArrival()
+        System.out.println("** Demonstrate formatByArrival");
         System.out.println(myItinerary.formatByArrival());
 
         // Add a blank line before the next output - 
@@ -53,41 +53,45 @@ public class AroundTheWorld {
         // Retrieve the array of Trip objects from Itinerary
         var array = myItinerary.getTrips();
 
-        // Demonstrate the fmtString method
+        System.out.println("** Demonstrate fmtString");
         System.out.println(array[0].fmtString("City", array[0].getCity()));
         System.out.println(Itinerary.fmtString("Key", "Value"));
 
-        // Demonstrate the Trip constructor and formatting
+        System.out.println("** Demonstrate formatTrip");
         String[] tmp = {"2023-07-10", "2023-08-11", "Vaduz", "Liechtenstein"};
         Trip aTrip = new Trip(tmp);
         System.out.println(aTrip.formatTrip());
 
-        // Demonstrate getMonth, getYear
+        System.out.println("** Demonstrate getMonth");
         System.out.println(aTrip.getMonth(tmp[0]));
+
+        System.out.println("** Demonstrate getYear");
         System.out.println(Trip.getYear(tmp[1]));
 
-	// Demonstrate all other methods
+        System.out.println("** Demonstrate getters and setters");
         System.out.println();
-	array[4].setDeparture("2025-10-26");
-	array[4].setArrival("2025-10-20");
+	array[4].setDeparture("2021-10-26");
+	array[4].setArrival("2021-10-20");
 	System.out.println("--" + array[4].getArrival() + "--");
 	System.out.println("--" + array[4].getDeparture() + "--");
 	System.out.println("--" + array[4].getCity() + "--");
 	System.out.println("--" + array[4].getCountry() + "--");
 
-        var dateArray = myItinerary.byDate();
-        for (int i=0; i<dateArray.length; i++) { // i is years - 2021-2023
-                for (int j=0; j<dateArray[i].length; j++) { // j is months, 0-11
-                        System.out.printf("dateArray[%d][%d][%d] = %s\n", i,j,0,
-                        dateArray[i][j][0]);
-                }
-        }
+        System.out.println("** Demonstrate content of byDate");
+	var dateArray = myItinerary.byDate();
+	for (int i=0; i<dateArray.length; i++) { // i is years - 2021-2023 
+		for (int j=0; j<dateArray[i].length; j++) { // j is months, 0-11
+			System.out.printf("dateArray[%d][%d][%d] = %s\n", i,j,0,
+			dateArray[i][j][0]);
+		}
+	}
+
     }
 
     // Each line is: arrival date, departure date, city, country/territory
     public static String[][] exampleData() {
         String[][] example = { 
-            { "2022-12-15", "2022-12-31", "Nuuk", "Greenland" },
+            { "2021-12-15", "2021-12-31", "Nuuk", "Greenland" },
             { "2022-12-31", "2023-01-05", "Longyearbyen", "Svalbard" },
             { "2023-01-05", "2023-01-08", "Helsinki", "Finland" },
             { "2023-01-08", "2023-01-12", "Casablanca", "Morocco" },
