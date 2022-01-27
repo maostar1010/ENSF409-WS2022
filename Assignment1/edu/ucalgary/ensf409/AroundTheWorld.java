@@ -92,7 +92,7 @@ public class AroundTheWorld {
     public static String[][] exampleData() {
         String[][] example = { 
             { "2021-12-15", "2021-12-31", "Nuuk", "Greenland" },
-            { "2022-12-31", "2023-01-05", "Longyearbyen", "Svalbard" },
+            { "2021-12-31", "2023-01-05", "Longyearbyen", "Svalbard" },
             { "2023-01-05", "2023-01-08", "Helsinki", "Finland" },
             { "2023-01-08", "2023-01-12", "Casablanca", "Morocco" },
             { "2023-01-12", "2023-01-15", "Istanbul", "Turkey" },
