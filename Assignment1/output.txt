@@ -31,8 +31,8 @@ Value (Key)
 2023
 ** Demonstrate getters and setters
 
---2021-10-20--
---2021-10-26--
+--2023-01-10--
+--2023-01-10--
 --Istanbul--
 --Turkey--
 ** Demonstrate content of byDate
@@ -45,7 +45,7 @@ dateArray[0][5][0] = null
 dateArray[0][6][0] = null
 dateArray[0][7][0] = null
 dateArray[0][8][0] = null
-dateArray[0][9][0] = Istanbul (City), Turkey (Country)
+dateArray[0][9][0] = null
 dateArray[0][10][0] = null
 dateArray[0][11][0] = Nuuk (City), Greenland (Country)
 dateArray[1][0][0] = null

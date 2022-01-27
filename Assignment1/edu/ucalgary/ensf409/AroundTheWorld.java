@@ -70,8 +70,8 @@ public class AroundTheWorld {
 
         System.out.println("** Demonstrate getters and setters");
         System.out.println();
-	array[4].setDeparture("2021-10-26");
-	array[4].setArrival("2021-10-20");
+	array[4].setDeparture("2023-01-10");
+	array[4].setArrival("2023-01-10");
 	System.out.println("--" + array[4].getArrival() + "--");
 	System.out.println("--" + array[4].getDeparture() + "--");
 	System.out.println("--" + array[4].getCity() + "--");
