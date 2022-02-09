@@ -38,7 +38,7 @@ public class PetBookingSystem {
         System.out.println(myPet.getVet().getName());
         
         myPet.updateVaccineStatus(true);
-        System.out.println(myPet.getVaccineStats());
+        System.out.println(myPet.getVaccineStatus());
         
         System.out.println();
         
@@ -46,7 +46,7 @@ public class PetBookingSystem {
         String medInstructions = "Give NexGard on Monday and Interceptor on Friday.";
         String foodInstructions = "1 cup of provided food twice daily.";
         
-        myPet.setCareInstructions(medList, medInstructions, foodInstructions);
+        myPet.setCare(medList, medInstructions, foodInstructions);
         
         System.out.println(myPet.getCareSummary());
         
@@ -63,8 +63,10 @@ public class PetBookingSystem {
         Employee[] employeeList = manager1.getEmployees();
         
         for (int i = 0; i < employeeList.length; i++){
-            System.out.println(employeeList[i].getName());
-            System.out.println(employeeList[i].getIDNumber());
+            if(employeeList[i] != null){
+                System.out.println(employeeList[i].getName());
+                System.out.println(employeeList[i].getIDNumber());
+            }
         }
 
         System.out.println();

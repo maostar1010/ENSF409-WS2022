@@ -12,7 +12,7 @@ All rights reserved.
    stubs provided. You may only add to the code.
 
    You may modify class AroundTheWorld, which is included for testing purposes only.
-   It will not be graded. 
+   It will not be graded.  You only need to submit Trip.java and Itinerary.java.
 
    Include your name and student ID at the top of the file, as comments or
    documentation. 
