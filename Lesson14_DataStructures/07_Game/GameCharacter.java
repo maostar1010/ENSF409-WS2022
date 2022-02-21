@@ -19,7 +19,7 @@ abstract class GameCharacter {
         public abstract String asString();
     }
 
-    default static TreeSet<Integer> attackPriorities = new TreeSet<Integer>();
+    static TreeSet<Integer> attackPriorities = new TreeSet<Integer>();
     protected String characterName;
     protected final CharacterClasses CHARACTER_CLASS;
     protected final int ATTACK_PRIORITY;
