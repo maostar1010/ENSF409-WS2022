@@ -34,7 +34,7 @@ Enumeration Method Tests (1 mark):
 
 N = North
 NW = Northwest
-NE = East
+NE = Northeast
 S = South
 SE = Southeast
 SW = Southwest
