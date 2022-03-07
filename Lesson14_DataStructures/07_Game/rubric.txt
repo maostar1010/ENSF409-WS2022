@@ -26,7 +26,7 @@ GameCharacter Tests (4 marks)
 
 Implementation was consistent with UML diagram Tests (5 marks)
 2 marks: existing GameCharacter code was not modified (access via CharacterWarrior) [GameCharacterUnmodifiedCharacterClassTest]
-2 marks: existing GameCharacter code was not modified (access via Duel) [GameCharacterUnmodifiedDualTest]
+2 marks: existing GameCharacter code was not modified (access via Duel) [GameCharacterUnmodifiedDuelStartTest, GameCharacterUnmodifiedDuelEndTest]
 1 mark: CharacterRogue only contains constructor shown in diagram [RogueExpectedConstructorOnlyTest]
 
 
