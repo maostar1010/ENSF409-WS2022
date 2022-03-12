@@ -43,8 +43,8 @@ W = West
   
 Getter Combination Tests (2 marks):
 
-1 mark: The following getters can be used in combination to get the correct robot ID after a RobotDataRecord is created: getDataRecord > getLine > getRobotID [GetRobotIDTest]
-1 mark: The following getters can be used in combination to get the correct data after a RobotDataRecord is created: getDataRecord > getLine > getDate.toString [GetDateTest]
+1 mark: The following getters can be used in combination to get the correct robot ID after a RobotDataRecord is created: create DataRecord> getLine > getRobotID [GetRobotIDTest]
+1 mark: The following getters can be used in combination to get the correct data after a RobotDataRecord is created: create DataRecord > getLine > getDate.toString [GetDateTest]
 ***Note that toString here is a built-in method that already exists as part of the LocalDate class.***
 
 Exceptions (5 marks):
