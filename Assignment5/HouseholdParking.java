@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class HouseholdParking extends CalgaryProperty {
-    // Each residental property is allowed one street parking permit
+    // Each residential property is allowed one street parking permit
     private LinkedList<String> residentLicence = new LinkedList<String>();
     private int maxLicences = 3;
 
@@ -22,9 +22,9 @@ public class HouseholdParking extends CalgaryProperty {
     }
 
     /*
-     * Add a licence to the first empty spot in residentLicence, or replace the most recent
-     * Ignore if the licence is already stored
-     * @param licence - The licence plate to be added
+     * Add a license to the first empty spot in residentLicence, or replace the most recent
+     * Ignore if the license is already stored
+     * @param licence - The license plate to be added
      * @throws IllegalArgumentException if licence plate isn't a valid Alberta licence
     */
     public void addOrReplaceResidentLicence(String licence) throws IllegalArgumentException {
@@ -86,10 +86,40 @@ public class HouseholdParking extends CalgaryProperty {
      * Get all the licences stored for the resident
      * @return An array containing the resident's licences
     */
-    public String[] getResidentLicence() {
-       String result[] = this.residentLicence.toArray(new String[maxLicences]);
-       return result;
+   
+    public String getResidentLicence() {
+//       String result[] = this.residentLicence.toArray(new String[maxLicences]);
+//       return result;
+    	return "";
     }
-
+    
+    public VisitorParking getVisitors() {
+    	return new VisitorParking();
+    }
+    
+    public void addVisitorReservation(String license) {
+    	
+    }
+    
+    public void addVisitorReservation(String license, LocalDate date) {
+    	
+    }
+    public ArrayList<String> getLicencesRegisteredForDate() {
+    	return new ArrayList<String>(1);
+    }
+    public ArrayList<String> getLicencesRegisteredForDate(LocalDate date) {
+    	return new ArrayList<String>(1);
+    }
+    public boolean licenceIsRegisteredForDate(String license) {
+    	return true;
+    }
+    public boolean licenceIsRegisteredForDate(String license, LocalDate date) {
+    	return true;
+    }
+    public ArrayList<LocalDate> getAllDaysLicenceIsRegistered(String license){
+    	return new ArrayList<LocalDate>(1);
+    }
+    public ArrayList<LocalDate> getStartDaysLicenceIsRegistered(String license){
+    	return new ArrayList<LocalDate>(1);
+    }
 }
-
