@@ -50,7 +50,10 @@ public class VisitorParking {
         if (date.isBefore(today)){
             throw new IllegalArgumentException();
         }
+        ArrayList<LocalDate> overlappingDates = new ArrayList<LocalDate>();
+        for (int i = -2;)
         if (this.parking.containsKey(license)){
+            if (this.parking.get(license).contains())
             throw new IllegalArgumentException();
         // } else if (!this.parking.get(license).contains(date)){
         //     this.parking.get(license).add(date);
@@ -67,8 +70,11 @@ public class VisitorParking {
                 count0++;
             } else if (value.contains(date.minusDays(1))) {
                 count1++;
+                count0++;
             } else if (value.contains(date.minusDays(2))) {
                 count2++;
+                count1++;
+                count0++;
                 // if (value.contains(date) || value.contains(date.minusDays(1)) || value.contains(date.minusDays(2))){
                 //    throw IllegalArgumentException();
                 // }
