@@ -25,6 +25,7 @@ public class ExistingFunctionalityTest {
     public HouseholdParking testObject2 = new HouseholdParking(expectedTaxRoll, givenZoning, expectedStreet, expectedNumber, givenPostCode);
 
     /** ****** These tests will become obsolete when the new feature is added ******** */
+    /*
     @Test
     public void testAddLicence() {
         String[] providedValues = { "hEll O", " w-o-r-l-d "};
@@ -83,6 +84,7 @@ public class ExistingFunctionalityTest {
         assertTrue("Second licence position is not empty after removing all", (actualValues[1] == null));
         assertTrue("removeResidentLicence() did not return true after removing all licences", status);
     }
+    */
 
     /** ****** These tests will remain relevant when the new feature is added ******** */
     @Test
