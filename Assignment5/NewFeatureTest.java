@@ -69,8 +69,6 @@ public class NewFeatureTest {
         assertTrue("VisitorParking 2-argument addVisitorReservation did not throw IllegalArgumentException when given invalid licence", passed);
     }
 
-
-
     @Test
     /*
      * The constructor and addVisitorReservation() should throw an IllegalArgumentException when provided with a date in the past.
